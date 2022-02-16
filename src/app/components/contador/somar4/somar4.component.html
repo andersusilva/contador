@@ -1,0 +1,29 @@
+<!-- Content -->
+
+<!-- Executa se a condição for falsa, ou seja, não tiver somado -->
+<div class="main-activity">
+  <mat-card class="card" *ngIf="!somado">
+    <mat-card-title>Você irá acrescentar 4 ao valor atual!</mat-card-title>
+    <mat-card-subtitle>Se tiver certeza, selecione o botão abaixo</mat-card-subtitle>
+    <div class="contador">
+      <button mat-raised-button class="segundo" (click)="somar4()">Somar +4</button>
+    </div>
+  </mat-card>
+
+<!-- Executa se a condição for verdadeira, ou seja, tiver somado -->
+  <mat-card class="card" *ngIf="somado">
+    <mat-card-title>Você acabou de somar 4 ao valor atual!</mat-card-title>
+    <!-- Consulta o novo valor com o que foi adicionado -->
+    <mat-card-subtitle>Novo valor: {{ novoValor() }}</mat-card-subtitle>
+    <!-- Botão de navegação para a tela anterior -->
+    <div class="contador">
+      <button mat-raised-button routerLink="/home">
+        Pode Voltar Agora!</button>
+    </div>
+  </mat-card>
+
+  <!-- Footer -->
+  <div class="footer">
+    <app-footer></app-footer>
+  </div>
+</div>

@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: lavenderblush;}
+
+/** Variáveis Cores **/
+:root {
+  --color-default: rgb(30, 125, 189);
+  --button-primary: #f59300;
+  --button-secundary: #005da8;
+}

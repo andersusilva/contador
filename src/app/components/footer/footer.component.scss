@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--color-default);
+  margin-left: 5px;
+}
+
+.footer p{
+  margin: 10% 0 10% 0;
+  font-weight: bold;
+  color: var(--color-default);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: rgb(94, 7, 7);
+}

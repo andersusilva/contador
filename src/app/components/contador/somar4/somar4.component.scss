@@ -1,0 +1,52 @@
+// Define estilo do content
+.main-activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+// Estilo do card
+.card {
+  margin-top: 5%;
+  text-align: center;
+  align-items: center;
+  width: 80vw;
+  max-width: 500px;
+  background-color: transparent;
+  margin-bottom: 2%;
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  mat-card-title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.5rem;
+    color: var(--color-default);
+    font-weight: bold;
+  }
+  mat-card-subtitle {
+    font-size: 1rem;
+    margin-top: 5%;
+    color: orange;
+    font-weight: 500;
+  }
+}
+
+// Estilo principal do botão
+button {
+  height: 150px;
+  border-radius: 30px;
+  cursor: pointer;
+  align-items: center;
+  font-size: 3.5rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+// Efeito quando passar o mouse pelo botão
+button:hover {
+  background-color: rgb(94, 7, 7);
+}
+
+// Cor do segundo botão
+.segundo {
+  background-color: var(--button-secundary);
+}
