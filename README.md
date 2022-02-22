@@ -3,7 +3,8 @@
 Sisteminha bem básico para fins de testes de conhecimento.
 
 - Feito utilizando:
-  -  Angular;
+  -  [Angular](https://angular.io/);
+  -  [Material UI](https://material.angular.io/)
   -  localStorage;
   -  Typescript e JS puro;
 
