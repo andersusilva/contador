@@ -1,10 +1,23 @@
 # Contador
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+Sisteminha bem básico para fins de testes de conhecimento.
 
-## Development server
+- Feito utilizando:
+  -  Angular;
+  -  localStorage;
+  -  Typescript e JS puro;
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Objetivo:
+  - Permitir somar +2 ou +4, através de direcionamento de 2 páginas, 1 service e utilizando 3 componentes;
+
+- Requisitos para Compilar:
+  -  [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3
+
+![SplashScreen](https://i.imgur.com/IfhF77E.jpg)
+
+## Modo de Desenvolvimento
+
+Rode `ng serve` para subir em ambiente de desenvolvimento. Navegue para `http://localhost:4200/`. O sistema vai atualizar automaticamente após salvar os arquivos!
 
 ## Code scaffolding
 
